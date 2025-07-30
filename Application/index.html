@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TSRTC Bus Pass Application</title>
+</head>
+<body>
+    <center><img src="https://tgsrtcpass.com/tsrtc/images/tsrtclogo.png" alt="" width="600">
+  <h2>  TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+  <h3>GENERAL BUS PASS APPLICATION</h3></center>
+<center>
+  <fieldset align="center">
+    <legend><strong>Applicant Details</strong></legend>
+    <form>
+      Name: <input type="text" maxlength="20" name="name">
+      Father's / Guardian's Name: <input type="text" name="father_name"><br><br>
+      
+      Date of Birth: <input type="text" name="dob">
+
+      Gender:
+      <input type="radio" name="gender" value="Female"> Female
+      <input type="radio" name="gender" value="Male"> Male<br><br>
+
+      Age As On:
+      <input type="text" name="age_years" placeholder="Years" size="4">
+      <input type="text" name="age_months" placeholder="Months" size="4">
+      <input type="text" name="age_days" placeholder="Days" size="4">
+
+      Aadhaar No: <input type="tel" name="aadhaar"><br><br>
+      WhatsApp No: <input type="tel" name="whatsapp">
+      E-mail Id: <input type="email" name="email"><br><br>
+      Photo: <input type="file" name="photo">
+    </form>
+  </fieldset>
+
+  <br>
+
+  <fieldset align="center">
+    <legend><strong>Residential Address Details</strong></legend>
+
+    Applicant's Address: 
+    <textarea name="address" maxlength="20" rows="2" cols="30"></textarea>
+
+    District:
+    <input type="text" name="District" placeholder="Hyderabad" >
+    <br><br>
+
+    Mandal:
+     <input type="text" name="Mandal" placeholder="Hyderabad">
+    Village:
+     <input type="text" name="Village" placeholder="Hyderabad" >
+      <br><br>
+
+    Pincode: <input type="tel" name="pincode"><br><br>
+  </fieldset><br>
+  <br>
+
+<fieldset align="center">
+  <legend><strong>Pass Type Details</strong></legend>
+
+  City: 
+  <select name="city">
+    <option value="Hyderabad">Hyderabad</option>
+  </select><br><br>
+
+  Pass Type:
+  <select name="pass_type">
+    <option value="">---Select---</option>
+    <option value="general">General</option>
+    <option value="student">Student</option>
+    <option value="employee">Employee</option>
+  </select><br><br>
+</fieldset>
+
+<br>
+
+<fieldset align="center">
+  <legend><strong>Mode of Payment & Pass Collection</strong></legend>
+
+  Payment Mode:
+  <select name="payment_mode">
+    <option value="">Select Payment Mode</option>
+    <option value="online">Online</option>
+    <option value="counter">Counter</option>
+  </select><br><br>
+
+  Pass Delivery Mode:
+  <select name="delivery_mode">
+    <option value="">Select Pass Delivery Mode</option>
+    <option value="home">Home Delivery</option>
+    <option value="pickup">Pickup at Center</option>
+  </select><br><br>
+
+  Center at which you want to Collect Pass:
+  <select name="collection_center">
+    <option value="">--Select--</option>
+    <option value="center1">Center 1</option>
+    <option value="center2">Center 2</option>
+  </select><br><br>
+</fieldset>
+</center>
+
+<br>    
+<center><img src="https://tse2.mm.bing.net/th/id/OIP.foQhyM9YUqWxD_ZDYTSUVQHaDJ?pid=Api&P=0&h=180" width="200"><br>
+<input type="text"><br>
+<input type="submit" value="Submit"></center>
+</body>
+</html>
